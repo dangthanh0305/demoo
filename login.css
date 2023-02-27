@@ -1,6 +1,8 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+}
+.container {
+    background-color: #ffffff;
 }
 .menu {
     display: flex;
@@ -47,6 +49,54 @@
 }
 .header-menu {
     padding-left: 170px;
+}
+.containersmall{
+    margin-left: 80px;
+}
+.form {
+    margin-left: 520px;
+    
+}
+.dangnhap {
+    text-align: center;
+}
+
+.form p {
+    font-weight: bolder;
+    color: #212529;
+    
+}
+.form input {
+    width: 340px;
+    height: 45px;
+    background-color: #ebebeb;
+    border-radius: 10px;
+}
+.form input::placeholder {
+    padding-left: 17px;
+    font-size: 17px;
+}
+.form button {
+    background-color: #333333;
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    width: 350px;
+    height: 45px;
+    margin: 15px 0;
+}
+
+
+#loiGmail {
+    display: none; 
+    color: red;
+}
+#loipass {
+    display: none; 
+    color: red;
+}
+.comment{
+    margin-left: 100px;
 }
 .footer {
     width: 1480.8px;
@@ -115,70 +165,8 @@
 }
 .about-us2 ul li {
     padding-bottom: 10px;
+    list-style: none;
 }
-.header-menu {
-    width: 1480.8px;
-    height: 56px;
-    align-items: center;
-}
-.banner img{
-    width: 1481px;
-    height: 536.09px;
-}
-.swiper-slide{
-    width: 390px;
-    height: 145.8px;
-    display: flex;
-    align-items: center;
-    background-color: #bb2649;
-    color: #f7f7f7;
-    justify-content: center;
-    
-}
-
-.logo-slide img{
-    width: 50px;
-    height: 50px;
-}
-.info-slide p{
-    font-size: 14px;
-}
-.slide{
-    display: flex;
-    position: absolute;
-    margin-top: -72.9px;
-    margin-left: 155.5px;
-}
-.top-product{
-    padding-top: 150px;
-}
-.title {
-    width: 1170px;
-    height: 59.2px;
-    margin-bottom: 40px;
-    font-size: 38px;
-    justify-content: space-between;
-    display: flex;
-    color: #bb2649;
-}
-.container-prd{
-    margin-left: 180px;
-    
-}
-.product1 {
-    background: #FFFFFF;
-    border-radius: 5px;
-    padding: 10px;
-    position: relative;
-    border: 1px solid #D2E6D3;
-    width: 196px;
-    height:273.6px;
-    margin: 5`````px;
-
-}
-.content-prd{
-    display:grid ;
-    grid: auto / auto auto auto auto auto;
-    width: 1170px;
-    height: 631.2px;
+.about-us2 ul{
+    padding-left: 0px;
 }
