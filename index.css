@@ -435,3 +435,24 @@
 .right {
     margin-left: 150px;
 }
+.slick-dots{
+    display: flex !important;
+    justify-content: space-evenly;
+}
+.slick-dots li {
+    list-style: none;
+    margin-top: 40px;
+
+}
+.slick-dots li  button {
+    width: 30px;
+    height: 30px;
+    border-radius: 40px;
+
+}
+.deal-product .product1{
+    margin-right: 10px;
+}
+.slick-track{
+    margin-top: 40px;
+}

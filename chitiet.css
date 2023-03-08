@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+}
+.container {
+    background-color: #ffffff;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    width: 1480.8px;
+    height: 104px;
+    background-color: #f7f7f7;
+}
+.logo img {
+    width: 188px;
+    height: 58.81px;
+    padding-left: 180px;
+    padding-right: 15px;
+}
+.logo {
+    width: 240px;
+    height: 58.81px;
+
+}
+.search {
+    padding-left :195px;
+}
+.search input {
+    height: 50px;
+    padding-left: 15px;
+    width: 370px;
+    padding-right: 55px;
+    border-radius: 20px;
+    border-color: #f7f7f7;
+}
+.hotline h4 {
+    padding-left: 15px;
+    padding-right: 65px;
+}
+.header-menu ul {
+    display: flex;
+    list-style: none;    
+    padding-left: 0px;
+        
+}.header-menu ul li {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.header-menu {
+    padding-left: 170px;
+}
+.containersmall{
+    margin-left: 80px;
+}
+.form {
+    margin-left: 520px;
+    
+}
+.footer {
+    width: 1480.8px;
+    height: 655.21px;
+    background-color: #212226;
+    color:#f7f7f7 ;
+    padding-top: 20px;
+}
+.email-footer {
+    margin-left: 180px;
+    background-color: #bb2649;
+    width: 1170px;
+    height: 92px;
+    display: flex;
+    margin-top:20px;
+    border-radius: 4px;
+}
+.email-footer .letter {
+    padding: 32px 0px 32px 35px;
+    font-size: 20px;
+    width:235px
+}
+.non{
+    width: 629px;
+    height: 47px;
+    border-radius: 10px;
+}
+.input-email {
+    padding: 20px 0px 25px  180px;
+}
+.input-footer {
+    display: flex;
+    width:50px
+}
+.gui button {
+    width: 53px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #bb2649;
+    color: #ffffff ;
+    font-size: 14px;
+    border-color: white;
+}
+.bottom-footer{
+    margin-left: 180px;
+    padding-top: 30px;
+    display: flex;
+    width: 1570px;
+}
+.logo-footer img{
+    width: 188px;
+    height: 58.81px;
+}
+.colum1{
+    width: 292.5px;
+    height: 412.71px;
+    padding-right: 30px ;
+
+}
+.thongtin ul li {
+    padding-top: 10px;
+}
+.about-us {
+    padding-bottom: 16px;
+}
+.about-us2 ul li {
+    padding-bottom: 10px;
+    list-style: none;
+}
+.about-us2 ul{
+    padding-left: 0px;
+}
