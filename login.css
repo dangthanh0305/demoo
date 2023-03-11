@@ -170,3 +170,54 @@
 .about-us2 ul{
     padding-left: 0px;
 }
+.img {
+    width: 340px;
+    height: 45px;
+    background-color: #ebebeb;
+    border-radius: 10px;
+    margin: 20px;
+}
+#themm {
+    width: 340px;
+    height: 45px;
+    background-color: #ebebeb;
+    border-radius: 10px;
+    margin: 20px;   
+}
+.price {
+    width: 340px;
+    height: 45px;
+    background-color: #ebebeb;
+    border-radius: 10px;
+    margin: 20px;
+}
+#addProduct {
+    margin: 20px 0 30px 500px
+}
+.tieude {
+    margin-left: 580px;
+}
+.tsp {
+    width: 253px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #bb2649;
+    color: #ffffff ;
+    font-size: 14px;
+    border-color: white;
+    margin-left: 70px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.about-us2 ul li a {
+    color: white;
+}
+.thongtin ul li a {
+    color: white;
+}
+.thongtin ul li {
+    list-style: none;
+}

@@ -129,3 +129,136 @@
 .about-us2 ul{
     padding-left: 0px;
 }
+.detail {
+    width: 1130px;
+    height: 430.063px;
+    background: #fff;
+    margin-left: 180px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.container-ct {
+    width: 1130px;
+    height: 430.063px;
+    background: #fff;
+	display: flex;
+    border-radius: 5px;
+}
+.layout {
+    background: #f5f5f5;
+    padding: 20px 0 20px;
+	width: 1480.8px;
+	height: 1536.680px;
+	
+}
+.imagee img {
+	width: 351.450px;
+	height: 351.450px;
+	margin: 30px 20px 0 30px;
+}
+.infor-prd {
+	width: 453.325px;
+	height: 315px;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.infor-tt h1 {
+	font-size: 30px;
+  
+    margin: 0px 0px 15px;
+    line-height: 36px;
+}
+.pricee h3 {
+	font-size: 30px;
+	margin-top: 30px;
+    color: #444444
+}
+.soluong {
+	margin-top: 30px;
+	font-weight: bold;
+}
+.mua {
+	background-color: #bb2649;
+	border: initial;
+    border-radius: 10px;
+    color: #fff;
+    width: 413.325px;
+	height: 70px;
+	font-size: 14px;
+}
+.buy{
+
+	margin-top: 40px;
+}
+.infor-detail {
+	width: 1130px;
+	height: 591.612px;
+	background-color: #fff;
+	margin: 20px 0 0 180px;
+}
+.thongtinsp {
+	padding: 10px 0 0 30px
+}
+.content {
+	width: 840px;
+	height: 273px;
+	margin-left: 10px;
+}
+.tab-left {
+    width: 840px;
+    height: 524px;
+}
+.container-tab{
+    display: flex;
+}
+.tab-right {
+    padding: 10px 0 0 30px
+}
+.anh img {
+    width: 100px;
+    height: 100px;
+}
+.small-prd {
+    display: flex;
+}
+.ten {
+    margin-left: 10px;
+}
+.above-footer {
+    width: 1110px;
+    height: 355px;
+    background: #fff;
+    padding: 20px 0 20px 20px;
+    border-radius: 5px;
+    margin: 20px 0px 20px 180px
+
+}
+.under-prd {
+    display: flex;
+    margin-top: 20px;
+}
+.spcl {
+    margin-bottom: 10px;
+}
+.product1 {
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    border: 1px solid #D2E6D3;
+    width: 196px;
+    height: 273.6px;    
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.about-us2 ul li a {
+    color: white;
+}
+.thongtin ul li a {
+    color: white;
+}
+.thongtin ul li {
+    list-style: none;
+}

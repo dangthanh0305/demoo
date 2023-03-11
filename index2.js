@@ -9,8 +9,10 @@ const listProduct = [
         id : 1,
         img : "img/asset 8.jpeg",
         name : "Gourmet Love Chocolate/ Romantic Heart - S01",
-        price : "625.000"
-    }
+        price : "625.000",
+        cate: 3
+    },
+    
 ]
 //thêm list sản phẩm vào local
 let newProduct = JSON.parse(localStorage.getItem("product"));
@@ -68,6 +70,7 @@ const showProduct = (app , datas) => {
     if(app) {
         for(let item of datas) {
             app.innerHTML +=`
+            <a href="chitiet.html?id=${item.id}">
             <div class="product1">
                 <div class="img-prd">
                     <img style="width: 196px; height: 196px;" src="${item.img}" alt="">
@@ -81,6 +84,7 @@ const showProduct = (app , datas) => {
                 </div>
             
             </div>
+            </a>
             `;
         }
     }
@@ -114,3 +118,66 @@ if(formProduct) {
         addPro()
     })
 }
+let btns =document.querySelectorAll(".btn-remove")
+const detailPrd =() => {
+    let id= new URLSearchParams(window.location.search).get("id");
+    let detail= document.querySelector(".container-ct")
+    if (detail) {
+        let newItem = newProduct.find (item=>item.id==id)
+        detail.innerHTML+=`
+        <div class="imagee">
+                        <img src="${newItem.img}" alt="">
+                    </div>
+                    <div class="infor-prd">
+                        <div class="infor-tt">
+                            <h1> ${newItem.name}</h1>
+                        </div>
+                        <div class="pricee">
+                            <h3> ${newItem.price}Đ</h3>
+                        </div>
+                        <div class="soluong">
+                            <p> Số lượng:</p>
+                        </div>
+                        <div class="buy">
+                            <button class="mua"> <span> MUA NGAY</span> <br> Giao hàng tận nơi hoặc nhận tại cửa hàng</button>
+                        </div>
+                    </div>
+        `
+    }
+}
+detailPrd ()
+// function mainProduct() {
+//     //cách lấy dữ liệu được đẩy lên trên url 
+//     let url = new URLSearchParams(window.location.search).get("url");
+//     let newArryProduct = array.find(function(item) {
+//         return item.id == url;
+//     });
+//     console.log(newArryProduct);
+//     let sanpham = document.querySelector(".container-ct");
+//     if (sanpham) {
+        
+//         sanpham.innerHTML = `
+//         <div class="imagee">
+//         <img src="${newItem.img}" alt="">
+//     </div>
+//     <div class="infor-prd">
+//         <div class="infor-tt">
+//             <h1> ${newItem.name}</h1>
+//         </div>
+//         <div class="pricee">
+//             <h3> ${newItem.price}Đ</h3>
+//         </div>
+//         <div class="soluong">
+//             <p> Số lượng:</p>
+//         </div>
+//         <div class="buy">
+//             <button class="mua"> <span> MUA NGAY</span> <br> Giao hàng tận nơi hoặc nhận tại cửa hàng</button>
+//         </div>
+//     </div>
+
+
+//         `;
+        
+//     }
+// }
+// mainProduct();

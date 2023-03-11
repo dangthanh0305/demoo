@@ -41,7 +41,7 @@
     padding-left: 0px;
         
 }.header-menu ul li {
-    text-decoration: none;
+    
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 20px;
@@ -456,3 +456,16 @@
 .slick-track{
     margin-top: 40px;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
+.about-us2 ul li a {
+    color: white;
+}
+.thongtin ul li a {
+    color: white;
+}
+.thongtin ul li {
+    list-style: none;
+}   

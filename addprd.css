@@ -1,0 +1,19 @@
+.form input {
+    width: 340px;
+    height: 45px;
+    background-color: #ebebeb;
+    border-radius: 10px;
+}
+.form input::placeholder {
+    padding-left: 17px;
+    font-size: 17px;
+}
+.form button {
+    background-color: #333333;
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    width: 350px;
+    height: 45px;
+    margin: 15px 0;
+}
